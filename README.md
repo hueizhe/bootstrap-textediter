@@ -11,7 +11,7 @@
 
 
  
- 1. Include the jQuery library and other necessary resources in the Html document.
+ Include the jQuery library and other necessary resources in the Html document.
 
 ```sh
  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -23,16 +23,16 @@
  
 ```
 
-2. Include the jQuery LineControl Editor plugin's javascript and CSS after jQuery library.
+Include the jQuery LineControl Editor plugin's javascript and CSS after jQuery library.
 ```sh
 <link href="editor.css" type="text/css" rel="stylesheet"/>
 <script src="editor.js"></script>
 ```
-3. Create an empty container element for the text editor.
+Create an empty container element for the text editor.
 ```sh
 <div id="txtEditor"></div> 
 ```
-4. Call the plugin on the container element.
+Call the plugin on the container element.
 ```sh
 <script type="text/javascript">
 $(document).ready( function() {
