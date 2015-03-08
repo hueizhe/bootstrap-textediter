@@ -25,7 +25,7 @@
 
 
 2. Include the jQuery LineControl Editor plugin's javascript and CSS after jQuery library.
-
+```sh
 <link href="editor.css" type="text/css" rel="stylesheet"/>
 <script src="editor.js"></script>
 3. Create an empty container element for the text editor.
@@ -38,4 +38,4 @@ $(document).ready( function() {
 $("#txtEditor").Editor();                    
 });
 </script>
-
+```
