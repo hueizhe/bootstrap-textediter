@@ -12,7 +12,7 @@
 
 1. Include the jQuery library and other necessary resources in the Html document.
 ```sh
-$ <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+ <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 ```
 
 
